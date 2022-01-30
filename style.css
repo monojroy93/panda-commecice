@@ -22,3 +22,52 @@
     border-radius: 8px;
     cursor: pointer;
 }
+
+.cata-1, .cata-2, .cata-3{
+    padding: 15px 25px;
+    border-radius: 8px;
+}
+.cata-1{
+    background: orange;
+}
+
+
+.cata-2{
+    background: orchid;
+}
+
+.cata-3{
+    background: royalblue;
+
+}
+
+.catagorics h1{
+    color: white;
+}
+
+.catagorics img{
+    width: 100px;
+}
+
+.card{
+    box-shadow: -5px -5px 10px rgb(129, 128, 128);
+    border: none;
+    border-radius: 8px;
+}
+
+.card-footer{
+    background-color: rgb(255, 255, 255);
+    border-top: none;
+}
+
+#subcribe{
+    height: 200px;
+}
+
+#subcribe h5{
+    color: #929292;
+}
+
+small{
+    text-align: center;
+}
