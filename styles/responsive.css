@@ -1,0 +1,16 @@
+/* =========== Hero ======================== */
+@media only screen and (max-width: 992px) {
+   .hero-left{
+    width: 80%;
+    margin: auto;
+   }
+  }
+@media only screen and (max-width: 550px) {
+   .hero-left{
+    width: 90%;
+    margin: auto;
+   }
+   .hero-left .hero-title {
+    margin-bottom: 10px;
+}
+  }

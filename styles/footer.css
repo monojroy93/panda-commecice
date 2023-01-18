@@ -1,0 +1,86 @@
+@import url(./globals.css);
+.footer-list-area{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+}
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer-list h3{
+    font-size: var(--sec-title-font);
+    color: var(--white-color);
+    font-family: var(--secondary-font);
+    font-weight: 500;
+}
+.footer-list p{
+    font-size: var(--p-font);
+    color: var(--white-color);
+    font-family: var(--secondary-font);
+    cursor: pointer;
+}
+.footer-social-area {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer-social-area h3{
+    font-size: var(--sec-title-font);
+    color: var(--white-color);
+    font-family: var(--secondary-font);
+    font-weight: 500;
+}
+.footer-social-area input{
+    background: #FFFFFF;
+border-radius: 10px;
+padding: 5px 15px;
+width: 80%;
+outline: none;
+font-family: var(--secondary-font);
+}
+.footer-social-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-social-item input[type=radio] {
+    border: 0px;
+    width: 50px;
+    height: 20px;
+    cursor: pointer;
+}
+.sign-me-up-btn button{
+    border: 1px solid #FFFFFF;
+border-radius: 10px;
+padding: 5px 15px;
+font-size: var(--sec-title-font);
+font-family: var(--secondary-font);
+color:var(--white-color);
+background: none;
+}
+.footer-right-arrow img{
+    width: 40px;
+}
+.footer-social-link {
+    display: flex;
+    margin-top: 20px;
+}
+.footer-social-link div{
+    width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+@media screen and (max-width: 500px){
+    .footer-list-area{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
